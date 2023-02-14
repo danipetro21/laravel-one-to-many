@@ -14,6 +14,7 @@ class MainController extends Controller
 
         $data = Person :: all();
 
+
         return view ('pages.home' , compact('data'));
     }
 }
